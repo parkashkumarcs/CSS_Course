@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors & Internal & External CSS</title>
+    <link rel="stylesheet" href="external.css">
+    <style>
+        /* div{
+            background-color: rgb(226, 162, 162);
+            width: 300px;
+            height: 500px;
+        }
+        div div{
+            width: 200px;
+            height: 150px;
+            background-color: rgb(119, 0, 255);
+        } */
+         h1{
+            color: blue;
+            background-color: chartreuse;
+            display: inline;
+         }
+        .main{
+            width: 500px;
+            height: 500px;
+            background-color: chocolate;
+        }
+        .child1{
+            width: 200px;
+            height: 150px;
+            background-color: gainsboro;
+        }
+        .child2{
+            width: 200px;
+            height: 150px;
+            background-color: rgb(255, 122, 122);
+        }
+        .child3{
+            width: 200px;
+            height: 150px;
+            background-color: rgb(58, 231, 116);
+        }
+        #main-div{
+            width: 700px;
+            height: 400px;
+            background-color: olive;
+        }
+        #div1{
+            width: 200px;
+            height: 150px;
+            background-color: rgb(4, 8, 6);
+        }
+        #div2{
+            width: 200px;
+            height: 150px;
+            background-color: rgb(121, 7, 7);
+        }
+        #div3{
+            width: 200px;
+            height: 150px;
+            background-color: rgb(218, 198, 22);
+        }
+    </style>
+
+    <!--   
+        If you check the result in DOM. You will see difference of Precedency between name and class 
+        and id. According to the results id has higher precedency than class and name. 
+    -->
+</head>
+<body>
+    <h1 style="display: block;">Selectors & Internal & External CSS</h1><br><br><br><br>
+    <!-- In innternal css to access using tab name to give style for elements-->
+     <h1>Using Name selector</h1>
+    <div>
+        <!-- Parent Container -->
+        <div></div><br>
+        <div></div><br>
+        <div></div><br>
+    </div>
+    <!-- In innternal css to access using class name to give style for elements-->
+    <hr>
+    <h1>Using classname selector</h1>
+    <div class="main">
+        <!-- Parent Container -->   
+        <div class="child1"></div>
+        <div class="child2"></div>
+        <div class="child3"></div>
+    </div>
+    <hr>
+     <!-- In innternal css to access using id to give style for elements-->
+     <h1>Using ID selector</h1>
+     <div id="main-div">
+         <!-- Parent Container -->   
+         <div id="div1"></div>
+         <div id="div2"></div>
+         <div id="div3"></div>
+     </div>
+     <button class="btn">Submit</button>
+</body>
+</html>

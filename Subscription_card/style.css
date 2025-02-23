@@ -1,0 +1,180 @@
+.super-div{
+    background-color: rgb(233, 229, 229);
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    /* border: 2px solid hotpink; */
+}
+.main{
+    width: 600px;
+    height: 450px;
+    background-color: aliceblue;
+    /* border: 2px solid rebeccapurple; */
+    box-shadow: 0px 0px 5px 0px rgba(66, 66, 66, 0.815);
+    margin: auto;
+    border-radius: 10px;
+}
+.main:hover{
+    scale: 1.02;
+    box-shadow: 0px 0px 5px 0px rgba(22, 21, 21, 0.815);
+}
+.box{
+    height: 225px;
+    /* border: 1px solid green; */
+    border-radius: 10px;
+}
+.info{
+    height: 185px;
+    padding: 20px;
+}
+.info h2{
+    color: rgb(5, 189, 180);
+    font-weight: bolder;
+}
+.info h4{
+    color: rgb(195, 228, 11);
+    font-weight: bolder;
+}
+.info p{
+    color: rgba(0, 0, 0, 0.61);
+    font-weight: lighter;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-justify: auto;
+}
+.signUp{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    position: relative;
+}
+.subscription{
+    width: 260px;
+    height: 185px;
+    background-color: rgb(5, 150, 142);
+    border-bottom-left-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    /* border: 1px solid rgb(128, 15, 0); */
+}
+.about{
+    width: 260px;
+    height: 185px;
+    background-color: rgb(17, 172, 164);
+    border-bottom-right-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    right: 0px;
+    /* border: 1px solid rgb(128, 15, 0); */
+}
+.title{
+    text-align: center;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+}
+.price{
+    color: aliceblue;
+    font-size: 40px;
+    display: inline-block;
+}
+.unit{
+    color: rgba(240, 248, 255, 0.637);
+    display: inline-block;
+}
+.dicrip{
+    color: rgba(240, 248, 255, 0.705);
+    display: inline-block;
+    position: relative;
+    bottom: 70px;
+}
+.btn{
+    width: 200px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(173, 211, 4);
+    color: rgb(248, 248, 248);
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+}
+.btn:hover{
+    background-color: goldenrod;
+    scale: 1.03;
+    cursor: pointer;
+}
+.def{
+    color: rgba(240, 248, 255, 0.685);
+    position: absolute;
+    top: 50px;
+    left: -16px;
+    list-style: none;
+}
+.def li{
+    padding: 2px;
+    left: 0px;
+    font-size: 14px;
+}
+
+.footer{
+    width: inherit;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.788);
+    position: relative;
+}
+.main-box{
+    height: 300px;
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid gainsboro;
+}
+.footer-box{
+    width: 700px;
+    height: 260px;
+    padding: 20px;
+    
+}
+.left{
+    background-color: rgb(26, 26, 26);
+    border-right: 10px double rgb(240, 223, 223);
+}
+.right{
+    background-color: rgba(26, 26, 26, 0.795);
+}
+.other-data{
+    color: aliceblue;
+    list-style: none;
+}
+.other-data li{
+    font-size: 20px;
+    background-color: rgb(49, 47, 47);
+    width: 200px;
+    border: 8px solid rgb(26, 26, 26);
+    cursor: pointer;
+}
+.other-data li:hover{
+    scale: 1.03;
+    color: rgb(5, 150, 142);
+}
+.right p{
+    color: aliceblue;
+}
+.flex-row{
+    position: absolute;
+    bottom: 0px;
+    left: 250px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 20px;
+    margin: auto;
+}
+.flex-row .em:hover{
+    color: blue;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline CSS</title>
+    <!--   
+        We have three types to define css style for perticular DOM page.
+        1) Inline CSS
+        2) Internal CSS
+        3) External CSS
+
+        1) Inline CSS:
+            We define the inline css using style attribute inside the html tags or elements.
+            Syntax:
+            <div style = "property name: value;..."></div>
+        Inline CSS has highest priority than other types such as class, id, tagName using internal and 
+        external CSS.
+
+        2) Internal CSS:
+            Internal CSS create in the own html page boundary in the head tag as 
+            <head> 
+                <style>
+                    selectorName{
+                        property: value;
+                        so on..
+                    }
+                </style>
+            </head>    
+        It has second higher priority. It is not accessible for external pages and
+        We use name, class, id selectors to give css style for perticular element individual.
+        
+        3) External CSS
+            This is most common use to design web page for large scale projects. We create seperated css
+            file as style.css and then connect with link tag using src attirbute in specific
+            html page.
+        This type of CSS style has lowest priority.   
+     
+    -->
+
+</head>
+<body>
+    <h1 style="color: purple;">I am <p style="display: inline-block; color: green;">Parkash</p> Kumar</h1>
+    <!-- 
+        Without Display property. If you want to set width of inline tags, it does not work
+        becaause the inline tags has no any spacific width or height property to give.
+        We can give the width by using display property as block or inline-block attributes.
+        Following is inline level tag <span>. Let see how it works.
+    -->
+    <span style="background-color: brown; font-size: 20px; width: 200px;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis iure officia explicabo 
+        magnam hic adipisci itaque voluptatibus qui modi cum, quo totam atque ipsa, deleniti 
+        dolorum eveniet nobis quos ipsum.
+    </span>
+    <br><br><br><br>
+    <span style="display: block; background-color: rgb(44, 60, 207); font-size: 20px; width: 200px;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis iure officia explicabo 
+        magnam hic adipisci itaque voluptatibus qui modi cum, quo totam atque ipsa, deleniti 
+        dolorum eveniet nobis quos ipsum.
+    </span>
+
+    <!-- Similarly we can make block level tags into inline tags using display property -->
+     <h3 style="background-color: greenyellow;">Hello I am MERN stack developer</h3>
+     <h3 style="display: inline; background-color: greenyellow;">Hello I am MERN stack developer</h3>
+   
+     <!-- Border Property -->
+     <h4 style="border: 20px solid red; border-radius: 10px;">CSS Course</h4>
+</body>
+</html>
