@@ -1,0 +1,17 @@
+.Inline-Block{
+    width: 500px;
+    height: 700px;
+    background-color: rgb(17, 0, 44);
+    border-radius: 10px;
+    margin: auto;
+}
+.box4{
+    width: 200px;
+    height: 100px;
+    margin: 0px;
+    border-radius: 5px;
+    margin: 20px;
+    display: inline-block;
+    font-size: 30px;
+    padding: 10px;
+}
