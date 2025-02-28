@@ -1,0 +1,20 @@
+/* 
+    width and height doesn't work because inline element can not change size.  
+    So we use display property to make inline elements into block level elements as
+    we are under doing.....
+*/
+
+.block{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: auto;
+}
+.box2{
+    width: inherit;
+    height: 100px; 
+    border-radius: 5px;
+    margin: 20px;
+    display: block;
+}
