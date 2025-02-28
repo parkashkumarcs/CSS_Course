@@ -1,0 +1,142 @@
+.box{
+    width: 450px;
+    height: 450px;
+    /* height: 500px; */
+    margin: auto;
+    /* margin-top: 50px; */
+    /* border: 20px solid red; */
+    background-color: burlywood;
+    position: relative;
+}
+
+/* 
+Margin property:
+    margin is out side space of boder of box.
+    It takes width and height either nigative or positive 
+    so we define the property margin as:
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-bottom: 50px;
+        margin-right: 50px;
+     We can write it in sorted property as:   
+     margin: 50px 50px 50px 50px; as anti clock wise top-right-botton-left.
+     or a general as margin: 50px;
+padding property:
+    padding is inside space of border and outside of content.
+    It takes width and height only positive.
+Border property:
+    Border is a boundary of box it has width and hight.      
+*/
+.subBox{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    margin: 70px;
+    padding: 100px;
+    border: 30px solid red;
+
+}
+.yellow{
+    /* position: absolute;
+    right: 0px;
+    margin-right: 30px; */
+    /* padding: 20px; */
+    background-color: yellow;
+
+}
+h1{
+    font-size: inherit;
+    padding: 3px;
+    background-color: rgb(224, 221, 228);
+}
+.M-Top{
+    position: absolute;
+    top: 0px;
+    right: 180px;
+    color: blue;
+    font-size: 20px;
+}
+.M-Right{
+    position: absolute;
+    top: 200px;
+    right: -20px;
+    color: blue;
+    font-size: 20px;
+    transform: rotate(90deg);
+}
+.M-Bottom{
+    position: absolute;
+    bottom: 0px;
+    left: 170px;
+    color: blue;
+    font-size: 20px;
+}
+.M-Left{
+    position: absolute;
+    top: 190px;
+    left: -5px;
+    color: blue;
+    font-size: 20px;
+    transform: rotate(90deg);
+}
+
+.B-Top{
+    position: absolute;
+    top: 57px;
+    left: 180px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+.B-Right{
+    position: absolute;
+    top: 186px;
+    right: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    transform: rotate(90deg);
+}
+.B-Bottom{
+    position: absolute;
+    bottom: 63px;
+    left: 180px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+.B-Left{
+    position: absolute;
+    top: 186px;
+    left: 47px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    transform: rotate(90deg);
+}
+
+.P-Top{
+    position: absolute;
+    top: 110px;
+    left: 190px;
+    color: rgb(145, 64, 64);
+    font-size: 15px;
+}
+.P-Right{
+    position: absolute;
+    top: 200px;
+    right: 90px;
+    color: rgb(145, 64, 64);
+    transform: rotate(90deg);
+}
+.P-Bottom{
+    position: absolute;
+    bottom: 130px;
+    left: 180px;
+    color: rgb(145, 64, 64);
+    font-size: 15px;
+}
+.P-Left{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    color: rgb(145, 64, 64);
+    font-size: 15px;
+    transform: rotate(90deg);
+}

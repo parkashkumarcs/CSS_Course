@@ -177,4 +177,5 @@
 }
 .flex-row .em:hover{
     color: blue;
+    cursor: pointer;
 }
