@@ -1,0 +1,16 @@
+.Inline{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(97, 45, 45);
+    border-radius: 10px;
+    margin: auto;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+    border-radius: 5px;
+    margin: 20px;
+    display: inline;
+    font-size: 30px;
+}
