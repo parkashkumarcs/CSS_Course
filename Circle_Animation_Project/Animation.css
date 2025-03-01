@@ -13,7 +13,6 @@
 .circle1{
     width: 300px;
     height: 300px;
-    background-color: rgba(0, 0, 255, 0);
     margin-top: 70px;
     border-radius: 50%;
     position: absolute;
@@ -23,7 +22,6 @@
 .circle2{
     width: 300px;
     height: 300px;
-    background-color: rgba(0, 0, 255, 0);
     margin-top: 70px;
     border-radius: 50%;
     position: absolute;
@@ -34,7 +32,6 @@
 .circle3{
     width: 300px;
     height: 300px;
-    background-color: rgba(0, 0, 255, 0);
     margin-top: 70px;
     border-radius: 50%;
     position: absolute;
@@ -45,7 +42,6 @@
 .circle4{
     width: 300px;
     height: 300px;
-    background-color: rgba(0, 0, 255, 0.555);
     margin-top: 70px;
     border-radius: 50%;
     position: absolute;
@@ -56,7 +52,6 @@
 .circle5{
     width: 300px;
     height: 300px;
-    background-color: rgba(0, 0, 255, 0.555);
     margin-top: 70px;
     border-radius: 50%;
     position: absolute;
@@ -64,20 +59,44 @@
     left: 394px;
     transform: rotate(120deg);
 }
+.circle6{
+    width: 300px;
+    height: 300px;
+    margin-top: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 394px;
+    transform: rotate(150deg);
+}
+.circle7{
+    width: 305px;
+    height: 305px;
+    margin-top: 68px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 392px;
+    transform: rotate(150deg);
+    background-color: rgba(0, 255, 42, 0.24);
+}
 .bar1{
     width: 150px;
     position: absolute;
     top: 140px;
-    height: 2px;
-    background-color: brown;
+    height: 3px;
+    background-color: rgba(165, 42, 42, 0);
+    box-shadow: 0px 0px 2px 0px rgb(0, 255, 34);
+    border-radius: 20px;
 
 }
 .bar{
     width: 300px;
     position: absolute;
-    background-color: brown;
+    background-color: rgb(34, 187, 29);
     top: 140px;
-    height: 2px;
+    height: 1px;
+    border-radius: 20px;
 
 }
 @keyframes bar {
