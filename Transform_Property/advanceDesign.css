@@ -1,7 +1,72 @@
 .new-Design{
     width: 500px;
     height: 500px;
-    background-color: rgb(221, 182, 182);
+    /* background-color: rgb(189, 189, 189); */
+    background: url('me.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     margin: auto;
     border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.box2{
+    width: 20px;
+    height: 20px;
+}
+.yellow{
+    background-color: rgb(255, 230, 0);
+    transform: skew(-25deg);
+    position: relative;
+    bottom: -20px;
+    left: 3px;
+}
+.green{
+    background-color: rgb(9, 182, 23);
+    position: relative;
+    bottom:     0px;
+    transform: skew(25deg);
+}
+.row{
+    width: inherit;
+    height: 40px;
+    background-color: rgb(238, 202, 0);
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.row1{
+    width: inherit;
+    height: 40px;
+    background-color: rgb(238, 202, 0);
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0px;
+}
+.row2{
+    width: inherit;
+    height: 40px;
+    background-color: rgb(238, 202, 0);
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: rotate(90deg);
+    position: absolute;
+    left: -231px;
+    top: 250px;
+}
+.row3{
+    width: inherit;
+    height: 40px;
+    background-color: rgb(238, 202, 0);
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform: rotate(90deg);
+    position: absolute;
+    right: -230px;
+    top: 250px;
 }
