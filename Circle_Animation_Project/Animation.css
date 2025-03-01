@@ -1,37 +1,90 @@
 .circle{
     width: 300px;
     height: 300px;
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.021);
     margin: auto;
     margin-top: 70px;
     border-radius: 50%;
     position: relative;
-}
-.bar1{
-    width: inherit;
-    position: absolute;
-    top: 135px;
-    height: 2px;
-    background-color: brown;
-    animation: bar 2s infinite;
+    animation: bar 6s infinite;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
+}
+.circle1{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(0, 0, 255, 0);
+    margin-top: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 394px;
+}
+.circle2{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(0, 0, 255, 0);
+    margin-top: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 394px;
+    transform: rotate(30deg);
+}
+.circle3{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(0, 0, 255, 0);
+    margin-top: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 394px;
+    transform: rotate(60deg);
+}
+.circle4{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(0, 0, 255, 0.555);
+    margin-top: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 394px;
+    transform: rotate(90deg);
+}
+.circle5{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(0, 0, 255, 0.555);
+    margin-top: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 394px;
+    transform: rotate(120deg);
+}
+.bar1{
+    width: 150px;
+    position: absolute;
+    top: 140px;
+    height: 2px;
+    background-color: brown;
+
+}
+.bar{
+    width: 300px;
+    position: absolute;
+    background-color: brown;
+    top: 140px;
+    height: 2px;
 
 }
 @keyframes bar {
-    0%{
+    from{
         transform: rotate(0deg);
     }
-    20%{
-        transform: rotate(30deg);
-    }
-    40%{
-        transform: rotate(60deg);
-    }
-    60%{
-        transform: rotate(90deg);
-    }
-    80%{
-        transform: rotate(0deg);
+    to{
+        transform: rotate(360deg);
     }
 }
