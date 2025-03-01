@@ -90,7 +90,7 @@
 }
 @keyframes ball {
     0%{
-        top: 380px;
+        top: 385px;
         left: 290px;
     }
     20%{
@@ -98,7 +98,7 @@
         left: 230px;  
     }
     40%{
-        top: 380px;
+        top: 385px;
         left: 32px;
     }
     60%{
@@ -110,7 +110,7 @@
         left: 420px;
     }
     100%{
-        top: 380px;
+        top: 385px;
         left: 290px;
     }
 }
