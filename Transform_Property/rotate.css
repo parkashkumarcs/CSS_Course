@@ -1,0 +1,108 @@
+.square-box{
+
+    width: 500px;
+    height: 500px;
+    background-color: rgba(45, 45, 59, 0.712);
+    margin: auto;
+    border-radius: 10px;
+    position: relative;
+}
+.box{
+    width: 200px;
+    height: 200px;
+}
+.sq-red{
+    background-color: red;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    transform: rotate(15deg);
+}
+.sq-blue{
+    background-color: rgb(0, 38, 255);
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    transform: rotate(25deg);
+}
+.sq-yellow{
+    background-color: rgb(255, 230, 0);
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    transform: rotate(35deg);
+}
+.sq-green{
+    background-color: rgb(0, 165, 0);
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    transform: rotate(45deg);
+}
+.sq-purple{
+    background-color: rgb(146, 0, 165);
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    transform: rotate(60deg);
+}
+.sq-sky{
+    background-color: rgb(0, 140, 165);
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    transform: rotate(75deg);
+}
+.sq-pink{
+    background-color: rgb(165, 0, 96);
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    transform: rotate(90deg);
+}
+.sq-orange{
+    background-color: rgb(214, 104, 0);
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    transform: rotate(105deg);
+}
+.bar{
+    height: 20px;
+    width: 200px;
+    border-radius: 20px;  
+
+}
+.color1{
+    background-color: rgb(0, 214, 64);
+    position: absolute;
+    top: 230px;
+    left: 150px;
+    transform: rotate(60deg);
+}
+.color2{
+    background-color: rgb(32, 0, 214);
+    position: absolute;
+    top: 230px;
+    left: 150px;
+    transform: rotate(150deg);
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(199, 14, 14);
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+.circle-border{
+    background-color: rgba(199, 131, 72, 0);
+    border: 5px solid greenyellow;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 120px;
+    left: 120px;
+}
