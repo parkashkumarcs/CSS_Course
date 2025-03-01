@@ -13,10 +13,10 @@
     background-color: rgba(128, 128, 128, 0);
     position: absolute;
     bottom: 20px;
-    left: 25px;
+    left: 225px;
     display: flex;
     flex-direction: row;
-    animation: hitBar 3s infinite;
+    animation: hitBar 4s infinite;
     animation-timing-function: linear;
     
 }
@@ -53,11 +53,27 @@
 @keyframes hitBar {
     0%{
         bottom: 20px;
-        left: 25px;
+        left: 225px;
+    }
+    20%{
+        bottom: 20px;
+        left: 245px;
+    }
+    40%{
+        bottom: 20px;
+        left: 20px;
     }
     60%{
         bottom: 20px;
-        left: 240px;
+        left: 245px;
+    }
+    80%{
+        bottom: 20px;
+        left: 20px;
+    }
+    100%{
+        bottom: 20px;
+        left: 225px;
     }
 }
 .ball{
@@ -67,27 +83,35 @@
     border-radius: 50%;
     box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.658);
     position: absolute;
-    top: 240px;
-    left: 230px;
+    top: 380px;
+    left: 290px;
     animation: ball 4s infinite;
     animation-timing-function: linear;
 }
 @keyframes ball {
     0%{
-        top: 240px;
-        left: 230px;  
-    }
-    10%{
-        top: 180px;
-        left: -3px;
+        top: 380px;
+        left: 290px;
     }
     20%{
-        top: 90px;
-        left: 130px;
+        top: 100px;
+        left: 230px;  
     }
     40%{
-        top: 386px;
-        left: 280px;
+        top: 380px;
+        left: 32px;
+    }
+    60%{
+        top: 98px;
+        left: 145px;
+    }
+    80%{
+        top: 286px;
+        left: 420px;
+    }
+    100%{
+        top: 380px;
+        left: 290px;
     }
 }
 .bricks-container{
@@ -105,11 +129,44 @@
     border-radius: 5px;
     overflow: hidden;
 }
+.row2{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.row3{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 25px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.row4{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 45px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.row5{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 65px;
+    border-radius: 5px;
+    overflow: hidden;
+}
 .brick{
     width: 43.5px;
     height: auto;
-    border: 1px solid ghostwhite;
+    /* border: 1px solid ghostwhite; */
     text-align: center;
+    padding: 1px;
 }
 .color1{
     background-color: blue;
