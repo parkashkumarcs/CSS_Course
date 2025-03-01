@@ -6,7 +6,6 @@
     margin: auto;
     border-radius: 10px;
     position: relative;
-    padding: 2px;
 }
 .hit-bar{
     width: 200px;
@@ -17,6 +16,9 @@
     left: 25px;
     display: flex;
     flex-direction: row;
+    animation: hitBar 3s infinite;
+    animation-timing-function: linear;
+    
 }
 .center{
     width: 150px;
@@ -25,23 +27,99 @@
     /* border-radius: 90px ; */
     position: absolute;
     left: 18px;
+    box-shadow: 0px 2px 2px 2px rgba(40, 41, 40, 0.61);
 }
 .left{
     width: 35px;
     height: 20px;
-    background-color: aquamarine;
+    background-color: rgb(22, 10, 187);
     position: absolute;
     z-index: 1;
     transform:skew(120deg);
+    box-shadow: 0px 0px 5px rgba(0, 128, 0, 0.658);
 
 }
 .right{
     width: 35px;
     height: 20px;
-    background-color: aquamarine;
+    background-color: rgb(170, 8, 8);
     position: absolute;
     right: 15px;
     z-index: 1;
     transform:skew(-120deg);
+    box-shadow: 0px 0px 5px rgba(0, 128, 0, 0.658);
 
+}
+@keyframes hitBar {
+    0%{
+        bottom: 20px;
+        left: 25px;
+    }
+    60%{
+        bottom: 20px;
+        left: 240px;
+    }
+}
+.ball{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(16, 196, 10);
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.658);
+    position: absolute;
+    top: 240px;
+    left: 230px;
+    animation: ball 4s infinite;
+    animation-timing-function: linear;
+}
+@keyframes ball {
+    0%{
+        top: 240px;
+        left: 230px;  
+    }
+    10%{
+        top: 180px;
+        left: -3px;
+    }
+    20%{
+        top: 90px;
+        left: 130px;
+    }
+    40%{
+        top: 386px;
+        left: 280px;
+    }
+}
+.bricks-container{
+    width: inherit;
+    height: 110px;
+    /* background-color: antiquewhite; */
+    position: relative;
+    overflow: hidden;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: -15px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.brick{
+    width: 43.5px;
+    height: auto;
+    border: 1px solid ghostwhite;
+    text-align: center;
+}
+.color1{
+    background-color: blue;
+}
+.color2{
+    background-color: rgb(255, 136, 0);
+}
+.color3{
+    background-color: rgb(255, 0, 212);
+}
+.color4{
+    background-color: rgb(0, 255, 179);
 }
