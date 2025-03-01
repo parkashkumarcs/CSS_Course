@@ -1,0 +1,103 @@
+.main-container{
+    width: 500px;
+    height: 500px;
+    border: 5px solid red;
+    background-color: black;
+    margin: auto;
+}
+.effect1{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+}
+.smallest-circle{
+    width: 10px;
+    height: 10px;
+    border: 1px solid gold;
+    border-radius: 50%;
+    animation: cr1 0.5s infinite;
+    animation-timing-function: linear;
+    /* animation-direction: alternate-reverse; */
+}
+@keyframes cr1{
+    from{
+        border: 1px solid rgb(255, 217, 0);
+    }
+    to{
+        border: 1px solid rgba(255, 217, 0, 0);
+        scale: 1.11;
+    }
+}
+.smaller-circle{
+    width: 20px;
+    height: 20px;
+    border: 1px solid gold;
+    border-radius: 50%;
+    position: absolute;
+    top: -4.88px;
+    left: -5px;
+    animation: cr2 0.6s infinite;
+    animation-timing-function: linear;
+    /* animation-direction: alternate-reverse; */
+}
+@keyframes cr2{
+    from{
+        border: 1px solid rgb(255, 217, 0);
+    }
+    to{
+        border: 1px solid rgba(255, 217, 0, 0);
+        scale: 1.12;
+    }
+}
+.small-circle{
+    width: 30px;
+    height: 30px;
+    border: 1px solid gold;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    animation: cr3 0.7s infinite;
+    animation-timing-function: linear;
+    /* animation-direction: alternate-reverse; */
+}
+@keyframes cr3{
+    from{
+        border: 1px solid rgb(255, 217, 0);
+    }
+    to{
+        border: 1px solid rgba(255, 217, 0, 0.062);
+        scale: 1.13;
+    }
+}
+
+.large-circle{
+    width: 40px;
+    height: 40px;
+    border: 1px solid gold;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    animation: cr4 0.8s infinite;
+    animation-timing-function: linear;
+    /* animation-direction: alternate-reverse; */
+}
+@keyframes cr4{
+    from{
+        border: 1px solid rgb(255, 217, 0);
+    }
+    to{
+        border: 1px solid rgba(255, 217, 0, 0);
+        scale: 1.14;
+    }
+}
+.loading{
+    color: aliceblue;
+    font-size: 40px;
+    position: absolute;
+    top: -45px;
+    left: 35px;
+}
