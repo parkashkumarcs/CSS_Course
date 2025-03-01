@@ -1,0 +1,47 @@
+.game-container{
+    width: 450px;
+    height: 450px;
+    background-color: black;
+    border: 3px solid red;
+    margin: auto;
+    border-radius: 10px;
+    position: relative;
+    padding: 2px;
+}
+.hit-bar{
+    width: 200px;
+    height: 20px;
+    background-color: rgba(128, 128, 128, 0);
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
+    display: flex;
+    flex-direction: row;
+}
+.center{
+    width: 150px;
+    height: 20px;
+    background-color: rgb(236, 236, 236);
+    /* border-radius: 90px ; */
+    position: absolute;
+    left: 18px;
+}
+.left{
+    width: 35px;
+    height: 20px;
+    background-color: aquamarine;
+    position: absolute;
+    z-index: 1;
+    transform:skew(120deg);
+
+}
+.right{
+    width: 35px;
+    height: 20px;
+    background-color: aquamarine;
+    position: absolute;
+    right: 15px;
+    z-index: 1;
+    transform:skew(-120deg);
+
+}
