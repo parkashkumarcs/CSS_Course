@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="rotate.css">
+    <link rel="stylesheet" href="skew.css">
     <title>Transform Property</title>
 </head>
 <body>
-    <h1>Rotate property</h1>
+    <!-- Specifies a 2D rotation by the angle specified in the parameter about the origin of the element, 
+    as defined by the transform-origin property. -->
+    <h1>Transform Rotate</h1>
     <div class="square-box">
         <div class="box sq-red"></div>
         <div class="box sq-blue"></div>
@@ -25,6 +28,16 @@
         <hr class="bar color4"> -->
 
     </div>
-    <hr>
+    <!-- Specifies a skew transformation along the X and Y axes. The first angle parameter 
+    specifies the skew on the X axis. The second angle parameter specifies the skew on 
+    the Y axis. If the second parameter is not given then a value of 0 is used for the 
+    Y angle (ie: no skew on the Y axis). -->
+    <hr style="height: 10px; background-color: black;"><br>
+    <h1> Transform Skew</h1>
+    <div class="skew-container">
+        <div class="box1 sk-blue"></div>
+        <div class="box1 sk-yellow"></div>
+        <div class="box1 sk-green"></div>
+    </div>
 </body>
 </html>

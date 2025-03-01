@@ -1,0 +1,26 @@
+.skew-container{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(85, 85, 85);
+    margin: auto;
+    border-radius: 10px;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+}
+
+.sk-yellow{
+    background-color: rgb(255, 230, 0);
+    position: relative;
+    top: -200px;
+    left: 150px;
+    transform: skew(-25deg);
+}
+.sk-green{
+    background-color: rgb(9, 182, 23);
+    position: relative;
+    top: -100px;
+    left: 150px;
+    transform: skew(25deg);
+}
