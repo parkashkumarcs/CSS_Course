@@ -1,0 +1,78 @@
+.effect2{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.circle{
+    width: 20px;
+    height: 20px;
+    background-color: navy;
+    border-radius: 50%;
+    margin: 5px;
+    margin-top: 20px;
+}
+.loading1{
+    color: aliceblue;
+    margin: 5px;
+    font-size: 50px;
+}
+.circles-row{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 220px;
+    top: 25px;
+    padding: 10px;
+}
+.first{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    animation: cir1 1s infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+}
+.second{
+    position: absolute;
+    top: -10px;
+    left: 30px;
+    animation: cir2 1s infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+}
+.third{
+    position: absolute;
+    top: -10px;
+    left: 70px;
+    animation: cir3 1s infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+}
+@keyframes cir1{
+    from{
+        width: 20px;
+        height: 20px;
+    }
+    to{
+        scale: 2;
+    }
+}
+@keyframes cir2{
+    from{
+        width: 20px;
+        height: 20px;
+    }
+    to{
+        scale: 2;
+    }
+}
+@keyframes cir3{
+    from{
+        width: 20px;
+        height: 20px;
+    }
+    to{
+        scale: 2;
+    }
+}
