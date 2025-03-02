@@ -28,14 +28,16 @@
 
 /* Flex Boxes layout using flex  */
 .flex-container{
-    /* display: flex; */
+    display: flex;
 }
 .box5{
     /* width: 200px; */
     /* height: 200px; */
     /* border: 2px solid green; */
     /* background-color: green; */
+    border-radius: 5px;
     margin: 20px;
+    flex: 50%;
 }
 .Bcolor{
     border: 2px solid blue;
