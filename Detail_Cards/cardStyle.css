@@ -1,5 +1,26 @@
 .card-container{
     width: 700px;
     margin: auto;
-    background-color: beige;
+    /* background-color: beige; */
+    display: flex;
+    flex-direction: column;
+}
+.Card{
+    flex: 50%;
+    padding: 10px;
+    background-color: aliceblue;
+    color: rgb(65, 65, 65);
+    margin: 20px;
+}
+.Card h2{
+    color: rgb(226, 9, 129);
+}
+.Card h3{
+    color: rgb(5, 156, 106);
+}
+.detail1{
+    border-left: 5px solid blue;
+}
+.detail2{
+    border-left: 5px solid rgb(7, 175, 7);
 }
