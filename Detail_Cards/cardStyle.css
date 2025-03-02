@@ -1,24 +1,26 @@
 .header{
+    width: 100%;
     display: flex;
     background-color: navy;
     position: sticky;
     top: 0px;
+    left: 0px;
 }
 .header h3{
-    margin: 15px;
+    position: relative;
     color: whitesmoke;
     padding: 10px;
 }
 
 .card-container{
-    width: 700px;
+    width: 50%;
     margin: auto;
     /* background-color: beige; */
     display: flex;
     flex-direction: column;
 }
 .Card{
-    flex: 50%;
+    width: 100%;
     padding: 10px;
     background-color: aliceblue;
     color: rgb(65, 65, 65);
@@ -41,4 +43,10 @@
 }
 .detail4{
     border-left: 5px solid rgb(155, 7, 175);
+}
+
+/* Footer Sytles */
+.footer{
+    background-color: rgb(29, 28, 28);
+    width: 100%;
 }
