@@ -49,6 +49,8 @@
 .footer{
     background-color: rgb(29, 28, 28);
     width: 100%;
+    position: absolute;
+    left: 0px;
 }
 .footer-container{
     display: flex;
@@ -61,4 +63,36 @@
 .content h4{
     margin-bottom: 30px;
     color: rgb(173, 173, 173);
+}
+.col4{
+    flex: 100%;
+}
+.content a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.sub-heading{
+    font-size: 12px;
+    color: rgba(187, 185, 185, 0.774);
+}
+.sub-heading1{
+    font-size: 12px;
+    color: rgba(187, 185, 185, 0.774);
+    display: inline;
+    position: absolute;
+    top: 95px;
+    left: 108px;
+}
+.col5{
+    flex: 100%;
+    position: relative;
+}
+.col6{
+    flex: 20%;
+}
+.bar{
+    width: 98%;
+    border-top: 1px solid rgb(88, 88, 88);
+    margin: auto;
+    margin-bottom: 50px;
 }
