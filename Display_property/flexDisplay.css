@@ -24,3 +24,16 @@
     display: flex;
     flex-direction: row;
 }
+
+
+/* Flex Boxes layout using flex  */
+.flex-container{
+    /* display: flex; */
+}
+.box5{
+    width: 200px;
+    height: 200px;
+    border: 2px solid green;
+    background-color: green;
+    margin: 20px;
+}
