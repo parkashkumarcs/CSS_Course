@@ -50,3 +50,15 @@
     background-color: rgb(29, 28, 28);
     width: 100%;
 }
+.footer-container{
+    display: flex;
+}
+.content{
+    flex: 50%;
+    color: aliceblue;
+    margin: 20px;
+}
+.content h4{
+    margin-bottom: 30px;
+    color: rgb(173, 173, 173);
+}
