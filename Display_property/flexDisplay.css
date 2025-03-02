@@ -31,9 +31,29 @@
     /* display: flex; */
 }
 .box5{
-    width: 200px;
-    height: 200px;
-    border: 2px solid green;
-    background-color: green;
+    /* width: 200px; */
+    /* height: 200px; */
+    /* border: 2px solid green; */
+    /* background-color: green; */
     margin: 20px;
+}
+.Bcolor{
+    border: 2px solid blue;
+    color: blue;
+    text-align: center;
+}
+.Ycolor{
+    border: 2px solid yellow;
+    color: yellow;
+    text-align: center;
+}
+.Rcolor{
+    border: 2px solid red;
+    color: red;
+    text-align: center;
+}
+.Gcolor{
+    border: 2px solid green;
+    color: green;
+    text-align: center;
 }
