@@ -1,19 +1,42 @@
 .header{
     width: 100%;
+    min-height: 80px;
     display: flex;
     background-color: navy;
     position: sticky;
     top: 0px;
     left: 0px;
+    z-index: 1;
 }
 .header h3{
     position: relative;
+    width: 100px;
+    /* height: 12px; */
+    text-align: center;
     color: whitesmoke;
-    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 5px;
+    margin: 20px;
+    border-bottom: 1px solid rgb(47, 189, 255);
+    box-shadow: 0px 0px 3px 0px rgba(0, 128, 0, 0.548);
+    background-color: rgb(19, 6, 141) ;
+
+    /* border-right-width: 100px; */
+}
+.header h3:hover{
+    border-bottom: 2px solid rgb(102, 255, 0);
+    background-color: rgb(248, 0, 165) ;
+    scale: 1.05;
+    transition: 0.5s;
+
+}
+.header a{
+    text-decoration: none;
 }
 
 .card-container{
-    width: 50%;
+    width: 70%;
     margin: auto;
     /* background-color: beige; */
     display: flex;
@@ -25,12 +48,22 @@
     background-color: aliceblue;
     color: rgb(65, 65, 65);
     margin: 20px;
+    border-top-right-radius: 50px;
+    box-shadow: 5px 5px 5px gainsboro;
+}
+.Card:hover{
+    scale: 1.01;
+    background-color: rgba(88, 88, 88, 0.39);
+    transition: 0.5s;
+    color: rgb(247, 247, 247);
+    box-shadow: 5px 5px 5px rgb(22, 22, 22);
 }
 .Card h2{
-    color: rgb(226, 9, 129);
+    color: rgb(2, 122, 192);
+    
 }
 .Card h3{
-    color: rgb(5, 156, 106);
+    color: rgb(0, 0, 0);
 }
 .detail1{
     border-left: 5px solid blue;
