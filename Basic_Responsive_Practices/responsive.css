@@ -13,11 +13,11 @@ h2{
 }
 img{
     border: 2px solid rgba(102, 51, 153, 0.116);
-    width: 15%;
+    width: 100%;
     margin: 10px;
     border-radius: 5px;
 }
-@media all and (min-width: 320px) {
+@media all and (min-width: 600px) {
     img{
         width: auto;
     }
