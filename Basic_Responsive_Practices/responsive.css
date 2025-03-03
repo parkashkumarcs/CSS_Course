@@ -1,5 +1,6 @@
-.card-container{
-    width: 500px;
-    height: 500px;
-    border: 2px solid blue;
+h1{
+    color: green;
+}
+h2{
+    color: blue;
 }
