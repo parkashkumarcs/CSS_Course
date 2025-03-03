@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mediaRuleStyle.css">
+    <title>@media Rule Practices</title>
+</head>
+<body>
+    <form class="form">
+        <label for="cards">How many Cards do you want to print?</label>
+        <input type="number" onkeyup="getNumbers(this)"/>
+        <label for="cards">Write some texts here?</label>
+        <input id="cust" name="content" placeholder="100 characters"></input>
+        <button onclick="generateCards()" id="btn">generate</button>
+
+    </form>
+    <div class="cards">
+
+    </div>
+    <script src="cards.js"></script>
+</body>
+</html>
