@@ -1,0 +1,7 @@
+.heading1{
+    color: gold;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+    transform: translate(20rad);
+}

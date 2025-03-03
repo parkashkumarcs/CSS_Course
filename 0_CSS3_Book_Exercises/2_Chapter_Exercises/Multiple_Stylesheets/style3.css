@@ -1,0 +1,8 @@
+.heading3{
+    color: rgb(43, 255, 0);
+    font-size: 30px;
+    font-weight: bolder;
+    transform: rotate(45deg);
+    height: fit-content;
+    border: 3px solid red;
+}

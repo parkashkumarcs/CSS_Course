@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Style Sheets</title>
+    <!-- <link rel="stylesheet" href="external.css"> -->
+    <style>
+         /* The following styles from different css sheets from another folder using url() method */
+        @import url('./Multiple_Stylesheets/style1.css');
+        @import url('./Multiple_Stylesheets/style2.css');
+        @import url('./Multiple_Stylesheets/style3.css');
+        @import url('./Multiple_Stylesheets/style4.css');
+        @import url('./Multiple_Stylesheets/style5.css');
+
+        
+        /* The following styles from internal and external using link tag href as above */
+        #internal{
+            color: brown;
+            background-color: aquamarine;
+            font-size: 50px;
+            animation: 1s;
+        }
+        h1{
+            color: darkorange;
+        }
+
+        /* Note: You can not run the multiple external files using url() under internal styles*/
+
+    </style>
+</head>
+<body>
+    <h1 style="color: blue;">Anatomy of Style</h1>
+    <h1 id = 'internal'>Understanding Style Sheets</h1>
+    <h1 class="external">Internal Style Sheets</h1>
+    <h1>External Style Sheets</h1>
+    <h1>Tutorial</h1>
+    <!-- styles from style1.css -->
+    <h2 class="heading1">Hello there, I am CSS3 Learner</h2>
+    <!-- styles from style2.css -->
+    <h2 class="heading2">Hello there, I am CSS3 Learner</h2>
+    <!-- styles from style3.css -->
+    <h2 class="heading3">Hello there, I am CSS3 Learner</h2>
+    <!-- styles from style4.css -->
+    <h2 class="heading4">Hello there, I am CSS3 Learner</h2>
+    <!-- styles from style5.css -->
+    <h2 class="heading5">Hello there, I am CSS3 Learner</h2>
+      
+</body>
+</html>

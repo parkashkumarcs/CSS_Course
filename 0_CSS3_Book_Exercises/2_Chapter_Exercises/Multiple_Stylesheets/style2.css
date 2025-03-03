@@ -1,0 +1,7 @@
+.heading2{
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+    font-weight: lighter;
+    font-style: italic;
+    transform: translate(0rad);
+}
