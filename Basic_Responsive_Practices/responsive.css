@@ -4,8 +4,12 @@ h1{
 h2{
     color: blue;
 }
-#dis{
-    color: rgb(167, 6, 216);
-    font-size: 40px;
+.img-container{
     text-align: center;
+}
+img{
+    border: 2px solid rgba(102, 51, 153, 0.116);
+    width: 15%;
+    margin: 10px;
+    border-radius: 5px;
 }
