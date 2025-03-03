@@ -1,0 +1,25 @@
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+.card-container{
+    width: 500px;
+    height: 500px;
+    border: 2px solid blue;
+    margin: auto;
+    margin-top: 40px;
+    /* border-radius: 10px; */
+}
+.top-container{
+    width: 100%;
+    height: 40%;
+    border: 2px solid rgb(228, 15, 15);
+}
+.bottom-container{
+    width: 100%;
+    height: 60%;
+    border: 2px solid rgb(228, 207, 15);
+}
