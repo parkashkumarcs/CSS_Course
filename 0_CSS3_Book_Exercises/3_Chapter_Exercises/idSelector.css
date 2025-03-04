@@ -1,0 +1,11 @@
+.idSelector{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(20, 155, 20);
+    text-decoration: underline;
+    
+}
+.idExplain{
+    font-size: 20px;
+    color: rgb(199, 199, 199);
+    background-color: black;
+}
