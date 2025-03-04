@@ -9,6 +9,7 @@
         @import url('./classSelector.css');
         @import url('./idSelector.css');
         @import url('./groupSelector.css');
+        @import url('./treeSelector.css');
     </style>
 </head>
 <body>
@@ -49,9 +50,42 @@
     </p>
     <h2>styled by group tags</h2>
     <h3>Tag group</h3>
-    <h3>Tag group</h3>
-    <h3>Tag group</h3>
-    <h3>Tag group</h3>
+    <h4>Tag group</h4>
+    <h5>Tag group</h5>
+    <h6>Tag group</h6>
+
+    <h3 class="classGroup1">Class group</h3>
+    <h3 class="classGroup2">Class group</h3>
+    <h3 class="classGroup3">Class group</h3>
+    <h3 class="classGroup4">Class group</h3>
+
+    <h1 id="idGroup1">Id Group</h1>
+    <h1 id="idGroup2">Id Group</h1>
+    <h1 id="idGroup3">Id Group</h1>
+
+    <h1 class="treeSelector">Building Descendent Selectors:</h1>
+    <p class="treeExplain">
+        Descendent selectors let you take advantage of the HTML family tree by formatting
+    tags differently when they appear inside certain other tags or styles. For example,
+    say you have an 'h1' tag on your web page, and you want to emphasize a word
+    within that heading with the 'strong' tag. The trouble is, most browsers display
+    both heading tags and the 'strong' tag in bold, so anyone viewing the page can’t
+    see any difference between the emphasized word and the other words in the headline. Creating a 
+    tag selector to change the 'strong' tag’s color and make it stand
+    out from the headline isn’t much of a solution: You end up changing the color of
+    every 'strong' tag on the page, like it or not. A descendent selector lets you do
+    what you really want—change the color of the 'strong' tag only when it appears
+    inside of an 'h1' tag.
+    </p>
+    <h1> Following are examples of Descendent selectors </h1>
+    <div class="Ancestor">
+        Ancestor
+        <div class=" child parent">
+            Child or Parent
+            <div class="granchild child1"> granchild or child</div>
+            <div class="granchild child2">granchild or child</div>
+        </div>
+    </div>
 
 </body>
 </html>

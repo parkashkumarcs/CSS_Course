@@ -12,6 +12,13 @@ h2{
     color: blue;
     font-size: 40px;
 }
-h3, h3, h3, h3{
+h3, h4, h5, h6{
     color: orange;
+}
+.classGroup1, .classGroup2, .classGroup3, .classGroup4{
+    color: rgb(255, 47, 64);
+}
+#idGroup1,#idGroup2,#idGroup3{
+    color: cadetblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }

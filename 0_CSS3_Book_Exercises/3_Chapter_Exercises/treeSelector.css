@@ -1,0 +1,41 @@
+.treeSelector{
+    color: darkgoldenrod;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.treeExplain{
+    color: blueviolet;
+    font-size: 20px;
+}
+.Ancestor{
+    width: 500px;
+    height: 500px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    margin: auto;
+}
+.Ancestor .parent{
+    width: 250px;
+    height: 250px;
+    background-color: bisque;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.Ancestor .granchild{
+    color: aliceblue;
+    font-size: 20px;
+    padding: 30px;
+    background-color: aqua;
+}
+.parent .child1{
+    font-weight: bolder;
+    color: red;
+
+}
+.Ancestor .parent .child2{
+    font-weight: bolder;
+    color: rgb(0, 47, 255);
+    display: inline-block;
+    
+}
