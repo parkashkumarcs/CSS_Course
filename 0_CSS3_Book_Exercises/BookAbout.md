@@ -7,7 +7,7 @@
 
 # Learner:😊Parkash Kumar
 ## parkashkumar.bscs.official@gmail.com
-## parkashkumar.bscsses21@iba-suke.edu.pk
+## parkashkumar.bscsses21@iba-suk.edu.pk
 ## Role as Frontend Developer
 
 # _______________________________________________________________________________________________________
