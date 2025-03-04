@@ -1,0 +1,12 @@
+html{
+    text-align: center;
+}
+.tagSelector{
+    color: navy;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.tagExplain{
+    background-color: antiquewhite;
+    font-size: 20px;
+}
