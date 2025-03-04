@@ -7,16 +7,15 @@
     <title>@media Rule Practices</title>
 </head>
 <body>
-    <form class="form">
+    <div class="form">
         <label >How many Cards do you want to print?</label>
         <input type="number" onkeyup="getNumbers(this)"/>
         <label >Write some texts here?</label>
-        <input id="cust" name="content" placeholder="100 characters" onkeyup="getText(this)"></input>
-        <button onclick="generateCards()" id="btn">generate</button>
-
-    </form>
-    <hr>
-    <div id="cards"></div>
+        <input id="cust" laceholder="100 characters" onkeyup="getText(this)"/>
+        <button type="submit" onclick="generateCards()" id="btn">generate</button>
+    </div>
+    <hr><br>
+    <div id="container"></div>
     <script src="cards.js"></script>
 </body>
 </html>

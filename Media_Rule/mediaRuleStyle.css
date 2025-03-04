@@ -19,23 +19,28 @@ label{
     margin-bottom: 10px;
 }
 #cust{
-    height: 100px;
+    height: 60px;
 }
 #btn{
+    margin: auto;
     margin-top: 30px;
     width: 130px;
-    margin: auto;
     font-size: 20px;
     background: navy;
     color: aliceblue;
     border-radius: 5px;
     padding: 10px;
 }
-@media all and (min-width: 400px) {
-    #btn{
-        width: auto;
-    }
+.container{
+    width: 100%;
+    height: fit-content;
+}
+
+@media all and (min-width: 600px) {
     .form{
-        width: 50%;
+        width: 40%;
+    }
+    .container{
+        width: auto;
     }
 }
