@@ -1,0 +1,37 @@
+.pseudoSelector{
+    font-weight: bolder;
+    font-size: 30px;
+    color: chocolate;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pseudoSelector:hover{
+    color: rgb(10, 172, 172);
+    background-color: crimson;
+    scale: 1.5;
+}
+.bookLink{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.bookLink:hover{
+    cursor: pointer;
+    text-decoration: solid;
+    color: aliceblue;
+    background-color: darkblue;
+    border-radius: 10px;
+}
+.pseudoExplain::first-letter{
+    color: rgb(243, 1, 1);
+    font-size: 50px;
+}
+.pseudoExplain::first-line{
+    color: violet;
+    font-size: 30px;
+}
+.bookLink::before{
+    content: "😊";
+}
+.bookLink::after{
+    content: '📕';
+}
