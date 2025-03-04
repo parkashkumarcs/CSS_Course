@@ -1,0 +1,17 @@
+.groupSelector{
+    color: coral;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+}
+.groupExplain{
+    color: blueviolet;
+    background-color: darkgray;
+    font-size: 30px;
+}
+h2{
+    color: blue;
+    font-size: 40px;
+}
+h3, h3, h3, h3{
+    color: orange;
+}
